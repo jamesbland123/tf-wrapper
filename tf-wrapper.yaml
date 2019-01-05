@@ -1,0 +1,21 @@
+ # Terraform wrapper configuration
+executionOrder:
+  - bastion
+
+aws_region: us-west-2   # AWS region Terraform will be ran against
+
+dev:
+  backendConf: dev-backend.tfvars
+  environmentConf: conf/dev.tfvars
+  awsProfile: default
+  
+integration:
+  backendConf: int-backend.tfvars
+  environmentConf: conf/integration.tfvars
+  awsProfile: default
+
+
+
+
+
+      

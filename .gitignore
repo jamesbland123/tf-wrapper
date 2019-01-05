@@ -1,0 +1,17 @@
+# Compiled files
+*.tfstate
+*.tfstate.*.backup
+*.tfstate.backup
+tfplan
+
+# Module directory
+.terraform/
+
+# IntelliJ
+.idea/
+
+# Mac DS_Store
+.DS_Store
+
+# Parameter store secrets publishing to AWS
+secrets.tfvars
